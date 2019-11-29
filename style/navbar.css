@@ -1,0 +1,36 @@
+nav{
+    height: var(--tamnav);
+    width: 99vw;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+}
+ul.navbar{
+    height: var(--tamnav);
+    /*Flex*/
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+nav > ul.navbar > li{
+    /*borde*/
+    border-style:solid;
+    border-width:5px;  
+    border-color:red;
+    text-decoration: none;
+    list-style-type: none;
+    /*Hago que los elementos ocupen toda la pantalla*/
+    width: 19vw;
+    text-align: center;
+    
+}
+nav > ul.navbar > li a{
+    text-decoration: none;
+    margin-top: 50%;
+    line-height: var(--tamnav);
+}
+.logout{
+    flex: 1 2 flex-end;
+}
