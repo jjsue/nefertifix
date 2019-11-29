@@ -1,0 +1,36 @@
+header{
+    max-width: 100vw;
+    max-height: auto;
+    /*Borde
+    border-style:solid;
+    border-width:5px;  
+    border-color:red;
+    /*borde*/
+    /*Flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*Background*/
+    background-image: url("./../img/wall.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+header img{
+    width:auto;
+    height: 8vw;
+    margin-left: 1vw;
+    /*border-style:solid;
+    border-width:5px;  
+    border-color:green;*/
+}
+header h1{
+    /*border-style:solid;
+    border-width:5px;  
+    /*border-color:blue;*/
+    align-self: center;
+    font-size: 4rem;
+    color: goldenrod;
+    text-shadow: black 0 0 3px;
+    
+}
