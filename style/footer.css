@@ -1,0 +1,39 @@
+footer{
+    height: var(--tamnav);
+    width: 99.1vw;
+    position: relative;
+    top: 0;
+    background-color: black;
+    border-top: 2px solid goldenrod;
+}
+footer ul{
+    height: var(--tamnav);
+    /*Flex*/
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+}
+footer > ul > li{
+    /*borde
+    border-style:solid;
+    border-width:5px;  
+    border-color:red;
+    */
+    text-decoration: none;
+    list-style-type: none;
+    /*Hago que los elementos ocupen toda la pantalla*/
+    width: 19vw;
+    text-align: center;
+}
+footer > ul > li a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: goldenrod;
+}
+footer > ul > li a:hover{
+    color: red;
+}
