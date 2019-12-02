@@ -3,8 +3,10 @@ section.multimedia{
 }
 section.multimedia h1{
     color: goldenrod;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
+    margin-left: 0.5vw;
+    text-decoration: underline;
 }
 
 section.multimedia article{
