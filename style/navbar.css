@@ -1,9 +1,10 @@
 nav{
     height: var(--tamnav);
-    width: 99vw;
+    width: 99.1vw;
     position: sticky;
     top: 0;
     background-color: black;
+    border-bottom: 2px solid goldenrod;
 }
 ul.navbar{
     height: var(--tamnav);
