@@ -5,6 +5,7 @@ nav{
     top: 0;
     background-color: black;
     border-bottom: 2px solid goldenrod;
+    z-index: 999;
 }
 ul.navbar{
     height: var(--tamnav);

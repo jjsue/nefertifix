@@ -17,7 +17,8 @@ section.multimedia article ul{
     justify-content: space-between;
     /*Barra lateral*/
     width: 98vw;  
-    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
     margin-left: 0.5vw;
     margin-right: 1vw;
 }
@@ -26,4 +27,19 @@ section.multimedia article ul li{
     list-style-type: none;
     flex-grow: 2;
     margin-right: 2vw;
+    position: relative;
+}
+section.multimedia article ul li div.contenedormultimedia{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+section.multimedia article ul li div.contenedormultimedia p{
+    margin-left: 2px;
+}
+.sinopsis{
+    font-size: 11px;
 }
