@@ -36,6 +36,14 @@ section.multimedia article ul li div.contenedormultimedia{
     width: 100%;
     text-align: left;
     font-size: 18px;
+    opacity: 0;
+    transition: opacity 2s;
+    transition: background-color 1s;
+}
+section.multimedia article ul li div.contenedormultimedia:hover{
+    opacity: 1;
+    background-color: black;
+    color: goldenrod;
 }
 section.multimedia article ul li div.contenedormultimedia p{
     margin-left: 2px;
