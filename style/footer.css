@@ -25,8 +25,11 @@ footer > ul > li{
     text-decoration: none;
     list-style-type: none;
     /*Hago que los elementos ocupen toda la pantalla*/
-    width: 19vw;
+    width: 33vw;
     text-align: center;
+}
+footer > ul > li.crece{
+    flex-grow: 2;
 }
 footer > ul > li a{
     text-decoration: none;
@@ -34,11 +37,11 @@ footer > ul > li a{
     display: block;
     color: goldenrod;
 }
-/*@media all and (orientation: portrait){
+@media all and (orientation: portrait){
     footer > ul > li a{
         font-size: 40px;
     }
-}*/
+
 footer > ul > li a:hover{
     color: red;
 }
