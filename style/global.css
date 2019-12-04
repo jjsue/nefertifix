@@ -7,5 +7,10 @@ body{
     background-color: black;
 }
 :root{
-    --tamnav: 5vh;
+    --tamnav: 45px;
+}
+@media all and (orientation: portrait){
+    :root{
+        --tamnav: 90px;
+    }
 }
