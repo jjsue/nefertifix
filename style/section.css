@@ -4,7 +4,7 @@ section.multimedia{
 section.multimedia h1{
     color: goldenrod;
     text-align: left;
-    font-size: 2rem;
+    font-size: 40px;
     margin-left: 0.5vw;
     text-decoration: underline;
 }
@@ -29,21 +29,28 @@ section.multimedia article ul li{
     margin-right: 2vw;
     position: relative;
 }
-section.multimedia article ul li div.contenedormultimedia{
-    position: absolute;
-    left: 0;
-    top: 0%;
-    width: 100%;
-    text-align: left;
-    font-size: 18px;
-    opacity: 0;
-    transition: opacity 2s;
-    transition: background-color 1s;
+@media only screen 
+and (min-width : 1224px) {
+    section.multimedia article ul li div.contenedormultimedia{
+        position: absolute;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        opacity: 0;
+        transition: opacity 2s;
+        transition: background-color 1s;
+    }
+    section.multimedia article ul li div.contenedormultimedia:hover{
+        opacity: 1;
+        background-color: black;
+        color: goldenrod;
+    }
 }
-section.multimedia article ul li div.contenedormultimedia:hover{
-    opacity: 1;
-    background-color: black;
-    color: goldenrod;
+section.multimedia article ul li a{
+    color:goldenrod;
+    text-decoration: none;
 }
 section.multimedia article ul li div.contenedormultimedia p{
     margin-left: 2px;
