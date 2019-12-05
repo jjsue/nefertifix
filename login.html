@@ -15,9 +15,19 @@
             <div class="flexcenter"></div>
         </header>
         <main>
-            <div class="contenedor">
-                
-            </div>
+            <form action="./index.html" method="get" target="_self" enctype="url-encoded">
+                <p>
+                    <label for="correoid">Introduce tu correo electronico:</label><br/>
+                    <input type="email" name="correo" id="correoid" placeholder="Escribe tu correo"/>
+                </p>
+                <p>
+                        <label for="contraid">Introduce tu contraseña:</label><br/>
+                        <input type="password" name="pass" id="contraid" placeholder="Contraseña:"/>
+                </p>
+                <p>
+                        <input type="submit" value="Entrar"/>
+                </p>
+            </form>
         </main>
 	</body>
 </html>
