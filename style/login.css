@@ -17,11 +17,15 @@ p{
     font-size: 40px;
     color: black;
 }
+::placeholder{
+    font-size: 20px;
+}
 input{
     width: 100%;
     border: 2px solid antiquewhite;
     border-radius: 5px;
     height: 50px;
+    font-size: 20px;
 }
 /*Boton de entrada*/
 .entrada{
