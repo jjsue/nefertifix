@@ -19,11 +19,20 @@ a.texto{
     font-size: 50px;
 	background-color: goldenrod;
 	border-radius:3px;
-	border:1px solid #0b0e07;
+	border:1px solid black;
 	display:inline-block;
 	cursor:pointer;
 	color: black;
 	font-size:50px;
 	padding:9px 23px;
 	text-decoration: underline;
+}
+a.texto:hover{
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+a.texto:active{
+    position:relative;
+	top:1px;
 }
