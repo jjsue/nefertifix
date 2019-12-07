@@ -29,8 +29,17 @@ section.multimedia article ul li{
     margin-right: 2vw;
     position: relative;
 }
+section .sinopsis{
+    display:none;
+}
+section.multimedia article ul li a{
+    color:goldenrod;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*Media query que controla si es pantalla grande*/
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1224px){
     section.multimedia article ul li div.contenedormultimedia{
         position: absolute;
         left: 0;
@@ -47,14 +56,11 @@ and (min-width : 1224px) {
         background-color: black;
         color: goldenrod;
     }
-}
-section.multimedia article ul li a{
-    color:goldenrod;
-    text-decoration: none;
+    section .sinopsis{
+        display: block;
+        font-size: 11px;
+    }
 }
 section.multimedia article ul li div.contenedormultimedia p{
     margin-left: 2px;
-}
-section .sinopsis{
-    font-size: 11px;
 }
