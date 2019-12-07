@@ -65,7 +65,7 @@ and (min-width : 1224px){
     /* Barra mas bonita en chrome */
     ::-webkit-scrollbar{width:10px}
     ::-webkit-scrollbar-track{background: black;border-radius:0px}
-    ::-webkit-scrollbar-thumb{background: goldenrod;border-radius:0px}*/
+    ::-webkit-scrollbar-thumb{background: goldenrod;border-radius:0px};
     
 }
 section.multimedia article ul li div.contenedormultimedia p{
