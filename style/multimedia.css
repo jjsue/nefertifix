@@ -39,3 +39,14 @@ a.texto:active{
     position:relative;
 	top:1px;
 }
+@media all and (orientation: portrait){
+    .texto{
+        font-size: 25px;
+    }
+    div.texto h1{
+        font-size: 35px;
+    }
+    div.texto h2{
+        font-size: 30px;
+    }
+}
