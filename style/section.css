@@ -64,3 +64,6 @@ and (min-width : 1224px){
 section.multimedia article ul li div.contenedormultimedia p{
     margin-left: 2px;
 }
+span.titulillos{
+    color: white;
+}
