@@ -19,6 +19,8 @@ section.multimedia article ul{
     width: 98vw;  
     overflow-x: scroll;
     overflow-y: hidden;
+    /*Barra mas bonita en firefox*/
+    scrollbar-color: goldenrod black;
     margin-left: 0.5vw;
     margin-right: 1vw;
 }
@@ -60,6 +62,11 @@ and (min-width : 1224px){
         display: block;
         font-size: 11px;
     }
+    /* Barra mas bonita en chrome */
+    ::-webkit-scrollbar{width:10px}
+    ::-webkit-scrollbar-track{background: black;border-radius:0px}
+    ::-webkit-scrollbar-thumb{background: goldenrod;border-radius:0px}*/
+    
 }
 section.multimedia article ul li div.contenedormultimedia p{
     margin-left: 2px;
