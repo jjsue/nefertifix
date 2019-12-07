@@ -3,5 +3,27 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
-    border: 5px solid red;
+    
+}
+.texto{
+    color:goldenrod;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contenedorenlace{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+a.texto{
+    font-size: 50px;
+	background-color: goldenrod;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-size:50px;
+	padding:9px 23px;
+	text-decoration: underline;
 }
