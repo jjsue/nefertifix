@@ -1,6 +1,6 @@
 .contenedorvideo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
     
