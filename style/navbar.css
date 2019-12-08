@@ -14,7 +14,7 @@ ul.navbar{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: space-around;
     padding: 0;
 }
 nav > ul.navbar > li{
@@ -34,7 +34,7 @@ nav > ul.navbar > li a:hover{
 }
 nav > ul.navbar > li a{
     text-decoration: none;
-    padding: 0 0 1rem 0; /*arriba derecha abajo izq*/
+    padding: 0.5rem 0 1rem 0;
     display: block;
     color: goldenrod;
     font-size: 20px;
