@@ -29,9 +29,12 @@ nav > ul.navbar > li{
     width: 19vw;
     text-align: center;
 }
+nav > ul.navbar > li a:hover{
+    color: red;
+}
 nav > ul.navbar > li a{
     text-decoration: none;
-    padding: 1rem;
+    padding: 0 0 1rem 0; /*arriba derecha abajo izq*/
     display: block;
     color: goldenrod;
     font-size: 20px;
@@ -40,7 +43,4 @@ nav > ul.navbar > li a{
     nav > ul.navbar > li a{
         font-size: 40px;
     }
-}
-nav > ul.navbar > li a:hover{
-    color: red;
 }
