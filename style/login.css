@@ -50,6 +50,39 @@ input{
     position:relative;
 	top:1px;
 }
+p.recuperar{
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    
+}
+a{
+    font-size: 50px;
+	background-color: black;
+	border-radius:3px;
+	border:1px solid goldenrod;
+	display:inline-block;
+	cursor:pointer;
+	color: goldenrod;
+	font-size: 15px;
+	padding:9px 23px;
+    text-decoration: none;
+    height: auto;
+    display:block;
+    margin-left: 70%;
+}
+a:hover{
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid black;
+}
+a:active{
+    position:relative;
+	top:1px;
+}
 @media all and (orientation: portrait){
     body{
         background-image: url(./../img/sand-portrait.jpg);
@@ -64,5 +97,9 @@ input{
     p{
         font-size: 60px;
         color: white;
+    }
+    a{
+        font-size: 40px;
+        margin-left: 0%;
     }
 }
