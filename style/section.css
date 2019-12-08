@@ -15,11 +15,9 @@ section.multimedia article{
 section.multimedia article ul{
     display: flex;
     justify-content: space-between;
-    /*Barra lateral*/
     width: 98vw;  
     overflow-x: scroll;
     overflow-y: hidden;
-    /*Barra mas bonita en firefox*/
     scrollbar-color: goldenrod black;
     margin-left: 0.5vw;
     margin-right: 1vw;
@@ -39,7 +37,6 @@ section.multimedia article ul li a{
     text-decoration: none;
     font-size: 25px;
 }
-/*Media query que controla si es pantalla grande*/
 @media only screen 
 and (min-width : 1224px){
     section.multimedia article ul li div.contenedormultimedia{
@@ -62,7 +59,6 @@ and (min-width : 1224px){
         display: block;
         font-size: 11px;
     }
-    /* Barra mas bonita en chrome */
     ::-webkit-scrollbar{width:10px}
     ::-webkit-scrollbar-track{background: black;border-radius:0px}
     ::-webkit-scrollbar-thumb{background: goldenrod;border-radius:0px};
